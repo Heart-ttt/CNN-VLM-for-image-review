@@ -1,2 +1,6 @@
+# all
 .vscode/
 论文模板/
+
+# mac
+.DS_Store
