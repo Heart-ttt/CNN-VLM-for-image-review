@@ -1,6 +1,8 @@
 # all
 .vscode/
 论文模板/
+train/COCO/
+train/dataset/
 
 # mac
 .DS_Store

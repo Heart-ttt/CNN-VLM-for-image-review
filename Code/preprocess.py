@@ -5,7 +5,7 @@ import numpy as np
 # from PIL import Image
 # import io
 
-class Preprocess:
+class preprocess:
     """
     图像预处理类：
     - 图像增强（锐化 + 对比度增强）

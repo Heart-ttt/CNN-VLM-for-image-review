@@ -22,7 +22,7 @@ def test_yolo11n():
     # 也可以指定本地路径: model = YOLO("path/to/yolo11n.pt")
     print("\n🔄 正在加载模型 yolo11n.pt ...")
     try:
-        model = YOLO("yolo11n.pt")
+        model = YOLO("../Code/yolo11n.pt")
         print("✅ 模型加载成功!")
     except Exception as e:
         print(f"❌ 模型加载失败: {e}")
@@ -33,7 +33,7 @@ def test_yolo11n():
 
     # 3. 准备测试图片
     # 如果没有图片，Ultralytics 自带了一些测试图，或者我们创建一个简单的黑色图片
-    img_path = "bus.jpg" 
+    img_path = "../pictures/test_image.png" 
     
     # 如果本地没有 bus.jpg，尝试使用 ultralytics 自带的示例或创建一个虚拟图像
     if not os.path.exists(img_path):
@@ -74,7 +74,7 @@ def test_yolo11n():
             print(f"   - 类别: {class_name}, 置信度: {confidence:.4f}")
 
     # 6. 保存结果图片
-    output_path = "yolo11n_result.jpg"
+    output_path = "./output/yolo11n_result.png"
     result.save(filename=output_path)
     print(f"\n✅ 结果已保存至: {output_path}")
     
