@@ -8,3 +8,6 @@
 /readme && /train 给出分类模型的训练流程
 /environment 给出环境和测试代码
 /pictures 随便找了个测试图片
+
+## v1.0.2 2026.3.1
+/code 重构了web界面
