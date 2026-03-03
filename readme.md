@@ -1,10 +1,13 @@
 # 面向校园网高并发场景的CNN-VLM级联图像审核系统设计与轻量化研究
-YOLO11+MobileNetV3+Qwen-VL
+YOLO11+MobileNetV4+Qwen-VL
+
+## 版本日志在 [CHANGELOG](./CHANGELOG.md) 中查看 
 
 # Prerequisites
 
-### [环境要求](environment/requirements.txt)
+## 环境要求:[requirements](environment/requirements.txt)
 
+> 
 > `python==3.10.14`
 > 
 > 需要`conda虚拟环境`; `YOLO`; `ollama`; 以及`streamlib`交互工具
@@ -19,9 +22,7 @@ YOLO11+MobileNetV3+Qwen-VL
 > 
 > 安装完成后Windows需要打开客户端Linux需要启动服务`sudo ollama serve`<br>
 > 并拉取VLM`ollama.pull('qwen3-vl:2b')`在运行测试<br>
-> [ollama测试代码](environment/test_ollatree.py)
-
-# Usage
+> [ollama测试代码](environment/test_ollama.py)
 
 ## YOLO model training
 
@@ -43,4 +44,6 @@ YOLO11+MobileNetV3+Qwen-VL
         └─simple
 ```
 5. 运行`train_mobilenetv4_coco.py`
+
+# Usage
 # WebInterface
