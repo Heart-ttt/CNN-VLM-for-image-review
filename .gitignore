@@ -1,8 +1,14 @@
+# 删除已跟踪文件夹：git rm -r --cached train/COCO
+
 # all
 .vscode/
-论文模板/
+
+# windows
 train/COCO/
 train/dataset/
+论文模板/
+论文/
+Qwen/
 
 # mac
 .DS_Store
