@@ -3,7 +3,9 @@ import torch
 from ultralytics import YOLO
 import os
 
-def test_yolo11n():
+img_path = "../pictures/278.jpg"
+# img_path = "../pictures/test_image.png"
+def test_yolo11n(img_path):
     print("="*30)
     print("开始测试 YOLO11n ...")
     print("="*30)
@@ -22,7 +24,8 @@ def test_yolo11n():
     # 也可以指定本地路径: model = YOLO("path/to/yolo11n.pt")
     print("\n🔄 正在加载模型 yolo11n.pt ...")
     try:
-        model = YOLO("../Code/yolo11n.pt")
+        # model = YOLO("../Code/yolo11n.pt")
+        model = YOLO("../Code/model/gambling.pt")
         print("✅ 模型加载成功!")
     except Exception as e:
         print(f"❌ 模型加载失败: {e}")
@@ -33,7 +36,7 @@ def test_yolo11n():
 
     # 3. 准备测试图片
     # 如果没有图片，Ultralytics 自带了一些测试图，或者我们创建一个简单的黑色图片
-    img_path = "../pictures/test_image.png" 
+    # 移动到开头 
     
     # 如果本地没有 bus.jpg，尝试使用 ultralytics 自带的示例或创建一个虚拟图像
     if not os.path.exists(img_path):
@@ -96,4 +99,4 @@ def test_yolo11n():
     print("="*30)
 
 if __name__ == "__main__":
-    test_yolo11n()
+    test_yolo11n(img_path)

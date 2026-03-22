@@ -26,6 +26,11 @@ YOLO11+MobileNetV4+Qwen-VL
 
 ## YOLO model training
 
+1. 下载**赌博违规训练数据集**`https://images.cv/download/casino/1013`
+2. 使用labelimg进行标注，标注成YOLO格式
+3. 按照8:2划分训练集与验证集
+4. 使用`yolov26n`作为基准模型进行训练
+
 ## MobileNetV4 model training
 1. 下载**COCO训练数据集**`http://images.cocodataset.org/zips/train2017.zip`！数据集为16G注意空间
 2. 下载**json文件**`http://images.cocodataset.org/annotations/annotations_trainval2017.zip`

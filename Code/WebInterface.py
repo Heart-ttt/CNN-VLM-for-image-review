@@ -1,232 +1,270 @@
 import streamlit as st
-import os
 import tempfile
-import json
 import time
+import json
+import os
+from datetime import datetime
+from PIL import Image
+import numpy as np
 
-from CNNDetector import YOLO_Dec, Classifier
-from Preprocess import preprocess
+from CNNDetector import YOLODetector, ImgClassifier
 from VLMAnalyzer import VLM_Dec
 
 
-class WebFace:
-    """
-    Streamlit 界面类
-    """
-
+class WebInterface:
 
     def __init__(self):
-        self.yolo = None
-        self.classifier = None
-        self.vlm = None
-        self.preprocessor = preprocess()
+
+        self.yolo = YOLODetector("model/first-gambling.pt")
+        self.classifier = ImgClassifier("model/classify-new.pth")
+        self.vlm = VLM_Dec("qwen3-VL:2b", "LLMprompt.txt")
+
+        os.makedirs("output", exist_ok=True)
+
+        self.result_file = "output/result.txt"
+
+        if "counter" not in st.session_state:
+            st.session_state.counter = 0
 
     # ==========================
-    # 初始化模型
+    # 保存结果
     # ==========================
-    def init_models(
-        self,
-        yolo_model_path: str,
-        classifier_weight_path: str,
-        vlm_model_name: str,
-        prompt_path: str = "LLMprompt.txt",
-    ):
-        self.yolo = YOLO_Dec(yolo_model_path)
-        self.classifier = Classifier(classifier_weight_path)
-        self.vlm = VLM_Dec(vlm_model_name, prompt_path)
+    def save_result(self, line):
+
+        with open(self.result_file, "a", encoding="utf-8") as f:
+            f.write(line + "\n")
 
     # ==========================
-    # 主界面
+    # 读取历史结果
+    # ==========================
+    def load_results(self):
+
+        if not os.path.exists(self.result_file):
+            return []
+
+        with open(self.result_file, "r", encoding="utf-8") as f:
+            return f.readlines()
+
+    # ==========================
+    # UI
     # ==========================
     def render(self):
 
-        st.set_page_config(
-            page_title="图片检测系统",
-            page_icon="🚀", 
-            layout="wide",
-            initial_sidebar_state="expanded",       # (可选) 侧边栏初始状态: "expanded", "collapsed", "auto"
-            menu_items=None,                     # (可选) 自定义右上角菜单
-            )
-        # st.title("违规图像检测系统")
+        st.set_page_config(layout="wide")
 
-        # 页面三分区
-        left_col, mid_col, right_col = st.columns([1, 2, 2])
+        st.title("违规图像检测系统")
 
-        # ==========================
-        # 左侧控制区
-        # ==========================
-        with left_col:
+        left, middle, right = st.columns([2, 5, 4])
 
-            st.subheader("检测控制")
+        # ======================
+        # 左 控制区
+        # ======================
+        with left:
 
-            mode = st.radio(
-                "选择检测模式",
-                [
-                    "YOLO初筛",
-                    "复杂度分类(CNN)",
-                    "VLM检测",
-                    "级联检测(YOLO→CNN→VLM)"
-                ]
-            )
-
-            st.markdown("---")
-
-            # 按钮居中
-            btn_col1, btn_col2, btn_col3 = st.columns([1, 2, 1])
-            with btn_col2:
-                start_btn = st.button("开始检测", use_container_width=True)
-
-            error_placeholder = st.empty()
-
-        # ==========================
-        # 中间图片展示区
-        # ==========================
-        with mid_col:
-
-            # st.subheader("图片展示")
+            st.subheader("控制区")
 
             uploaded_file = st.file_uploader(
                 "上传图片",
-                type=["jpg", "png", "jpeg"]
+                type=["jpg", "jpeg", "png"]
             )
 
-            image_path = None
+            mode = st.radio(
+                "检测模式",
+                options=[
+                    "CNN初筛",
+                    "VLM检测",
+                    "级联检测"
+                ]
+            )
 
-            if uploaded_file is not None:
-                image_path = self.__save_temp_file(uploaded_file)
-                st.image(image_path, use_column_width=True)
+            st.write("")
 
-        # ==========================
-        # 右侧结果展示区
-        # ==========================
-        with right_col:
+            c1, c2, c3 = st.columns([1, 2, 1])
+            with c2:
+                start = st.button("开始检测")
+
+            error_box = st.empty()
+
+        # ======================
+        # 中 图片预览
+        # ======================
+        with middle:
+
+            st.subheader("图片预览")
+
+            image_box = st.empty()
+
+        # ======================
+        # 右 结果
+        # ======================
+        with right:
 
             st.subheader("检测结果")
 
-            result_placeholder = st.empty()
-            metric_placeholder = st.empty()
+            progress_box = st.empty()
+            time_box = st.empty()
+            result_box = st.empty()
 
-        # ==========================
-        # 按钮点击逻辑
-        # ==========================
-        if start_btn:
+            history = self.load_results()
 
-            # 错误检查
-            if not image_path:
-                error_placeholder.error("请先上传图片")
+            if history:
+                result_box.text("".join(history))
+
+        # ======================
+        # 处理图片
+        # ======================
+        image_bytes = None
+        image_path = None
+
+        if uploaded_file is not None:
+
+            image_bytes = uploaded_file.getvalue()
+
+            img = Image.open(uploaded_file)
+
+            image_box.image(
+                img,
+                use_container_width=True
+            )
+
+            tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".png")
+            tmp.write(image_bytes)
+            image_path = tmp.name
+            tmp.close()
+
+        # ======================
+        # 点击检测
+        # ======================
+        if start:
+
+            if image_path is None:
+
+                error_box.error("请先上传图片")
+
                 return
 
-            if self.yolo is None or self.classifier is None or self.vlm is None:
-                error_placeholder.error("模型未初始化，请先调用 init_models()")
-                return
+            try:
 
-            error_placeholder.empty()
+                start_time = time.time()
 
-            result, preprocess_time, stage_times, total_time = \
-                self.run_detection(mode, image_path, result_placeholder)
+                start_time_str = datetime.now().strftime("%Y/%m/%d-%H:%M:%S")
 
-            # 显示耗时
-            with right_col:
-                st.subheader("耗时统计")
+                progress = progress_box.progress(0)
 
-                col1, col2 = st.columns(2)
-                col1.metric("预处理耗时(s)", round(preprocess_time, 4))
-                col2.metric("总耗时(s)", round(total_time, 4))
+                violation = False
+                category = "无"
+                confidence = 0
+                reason = ""
 
-                st.markdown("#### 阶段耗时")
-                for stage, t in stage_times.items():
-                    st.write(f"{stage}: {round(t,4)} s")
+                # ======================
+                # CNN初筛
+                # ======================
+                if mode == "CNN初筛":
 
-    # ==========================
-    # 核心检测流程
-    # ==========================
-    def run_detection(self, mode, image_path, result_placeholder):
+                    progress.progress(30)
 
-        progress = result_placeholder.progress(0)
-        total_start = time.time()
+                    yolo_result = self.yolo.detect(image_path)
 
-        # 预处理
-        start = time.time()
-        processed_path = self.preprocessor.process(image_path)
-        preprocess_time = time.time() - start
-        progress.progress(20)
-
-        stage_times = {}
-        result = None
-
-        if mode == "YOLO初筛":
-
-            start = time.time()
-            result = json.loads(self.yolo.detect(processed_path))
-            stage_times["YOLO"] = time.time() - start
-            progress.progress(100)
-
-        elif mode == "复杂度分类(CNN)":
-
-            start = time.time()
-            result = self.classifier.predict(processed_path)
-            stage_times["CNN"] = time.time() - start
-            progress.progress(100)
-
-        elif mode == "VLM检测":
-
-            start = time.time()
-            result = self.vlm.detect(processed_path)
-            stage_times["VLM"] = time.time() - start
-            progress.progress(100)
-
-        elif mode == "级联检测(YOLO→CNN→VLM)":
-
-            # YOLO
-            start = time.time()
-            yolo_result = json.loads(self.yolo.detect(processed_path))
-            stage_times["YOLO"] = time.time() - start
-            progress.progress(40)
-
-            if yolo_result["category"] is not None:
-                result = {"stage": "YOLO", "result": yolo_result}
-
-            else:
-                # CNN
-                start = time.time()
-                cnn_result = self.classifier.predict(processed_path)
-                stage_times["CNN"] = time.time() - start
-                progress.progress(70)
-
-                if cnn_result["category"] == "simple":
-                    result = {"stage": "CNN", "result": cnn_result}
-                else:
-                    # VLM
-                    start = time.time()
-                    vlm_result = self.vlm.detect(processed_path)
-                    stage_times["VLM"] = time.time() - start
                     progress.progress(100)
 
-                    result = {"stage": "VLM", "result": vlm_result}
+                    if yolo_result["category"]:
 
-        total_time = time.time() - total_start
+                        violation = True
+                        category = yolo_result["category"]
+                        confidence = yolo_result["confidence"]
+                        reason = "YOLO检测到违规"
 
-        result_placeholder.json(result)
+                    else:
 
-        return result, preprocess_time, stage_times, total_time
+                        violation = False
+                        category = "无"
+                        reason = "YOLO未检测到违规"
 
-    # ==========================
-    # 临时文件保存
-    # ==========================
-    def __save_temp_file(self, uploaded_file):
-        suffix = os.path.splitext(uploaded_file.name)[-1]
-        with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
-            tmp.write(uploaded_file.read())
-            return tmp.name
+                # ======================
+                # VLM检测
+                # ======================
+                elif mode == "VLM检测":
+
+                    progress.progress(30)
+
+                    vlm_raw = self.vlm.detect(image_path)
+
+                    progress.progress(70)
+
+                    vlm_json = json.loads(vlm_raw)
+
+                    violation = vlm_json["violation"]
+                    category = vlm_json["category"]
+                    confidence = vlm_json["confidence"]
+                    reason = vlm_json["reason"]
+
+                    progress.progress(100)
+
+                # ======================
+                # 级联检测
+                # ======================
+                else:
+
+                    progress.progress(20)
+
+                    yolo_result = self.yolo.detect(image_path)
+
+                    progress.progress(50)
+
+                    if yolo_result["category"]:
+
+                        vlm_raw = self.vlm.detect(image_path)
+
+                        vlm_json = json.loads(vlm_raw)
+
+                        violation = True
+                        category = vlm_json["category"]
+                        confidence = vlm_json["confidence"]
+                        reason = vlm_json["reason"]
+
+                    else:
+
+                        violation = False
+                        category = "无"
+                        reason = "YOLO未检测到违规"
+
+                    progress.progress(100)
+
+                end_time = time.time()
+
+                cost_time = round(end_time - start_time, 3)
+
+                # ======================
+                # 结果
+                # ======================
+                st.session_state.counter += 1
+
+                result_line = (
+                    f"{st.session_state.counter};"
+                    f"{start_time_str};"
+                    f"{violation};"
+                    f"{mode};"
+                    f"{cost_time}s;"
+                    f"{category};"
+                    f"{confidence};"
+                    f"{reason}"
+                )
+
+                self.save_result(result_line)
+
+                history = self.load_results()
+
+                result_box.text("".join(history))
+
+                time_box.info(f"检测耗时: {cost_time} 秒")
+
+            except Exception as e:
+
+                error_box.error(f"检测失败: {str(e)}")
+
 
 if __name__ == "__main__":
     # streamlit run WebInterface.py
-    app = WebFace()
-    app.init_models(
-    yolo_model_path="yolo11n.pt",
-    classifier_weight_path="best_mobilenetv4.pth",
-    vlm_model_name="qwen3-VL:2b",
-    prompt_path="LLMprompt.txt"
-    )
+    app = WebInterface()
 
     app.render()

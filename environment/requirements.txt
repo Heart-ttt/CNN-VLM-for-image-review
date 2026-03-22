@@ -10,6 +10,12 @@
 # CNN识别
 ultralytics==8.3.0
 timm==1.0.25
+# 安装 EasyOCR
+pip install easyocr==1.7.2
+# 安装 transformers (用于 DistilBERT) 和 accelerate
+pip install transformers==5.3.0 accelerate==1.13.0
+# 安装 pyahocorasick (高效的 AC 自动机实现)
+pip install pyahocorasick==2.3.0
 #进度条
 tqdm==4.67.3
 
