@@ -1,0 +1,5022 @@
+{
+  "generated_at": "2026-03-24 17:37:30",
+  "input_dir": "dataset_final\\images",
+  "output_file": "dataset_final\\simulated_results.json",
+  "recursive": false,
+  "simulator_version": "1.0",
+  "summary": {
+    "total": 200,
+    "blocked": 0,
+    "passed": 200,
+    "by_stage": {
+      "MobileNetV4": 200
+    },
+    "by_reason": {
+      "YOLO放行，简单场景放行": 200
+    },
+    "blocked_categories": {},
+    "avg_elapsed_seconds": 0.3314
+  },
+  "results": [
+    {
+      "id": 1,
+      "file_name": "A001.jpg",
+      "relative_path": "A001.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6986,
+      "elapsed_seconds": 0.4549,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6986
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 2,
+      "file_name": "A002.jpg",
+      "relative_path": "A002.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6939,
+      "elapsed_seconds": 0.4591,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6939
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 3,
+      "file_name": "A003.jpg",
+      "relative_path": "A003.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6795,
+      "elapsed_seconds": 0.3857,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6795
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 4,
+      "file_name": "A004.jpg",
+      "relative_path": "A004.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6262,
+      "elapsed_seconds": 0.1705,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6262
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 5,
+      "file_name": "A005.jpg",
+      "relative_path": "A005.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7318,
+      "elapsed_seconds": 0.4057,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7318
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 6,
+      "file_name": "A006.jpg",
+      "relative_path": "A006.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8026,
+      "elapsed_seconds": 0.4654,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8026
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 7,
+      "file_name": "A007.jpg",
+      "relative_path": "A007.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6513,
+      "elapsed_seconds": 0.2597,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6513
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 8,
+      "file_name": "A008.jpg",
+      "relative_path": "A008.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8453,
+      "elapsed_seconds": 0.3801,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8453
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 9,
+      "file_name": "A009.jpg",
+      "relative_path": "A009.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6412,
+      "elapsed_seconds": 0.5217,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6412
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 10,
+      "file_name": "A010.jpg",
+      "relative_path": "A010.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6307,
+      "elapsed_seconds": 0.1294,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6307
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 11,
+      "file_name": "A011.jpg",
+      "relative_path": "A011.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7499,
+      "elapsed_seconds": 0.4394,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7499
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 12,
+      "file_name": "A012.jpg",
+      "relative_path": "A012.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6434,
+      "elapsed_seconds": 0.3585,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6434
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 13,
+      "file_name": "A013.jpg",
+      "relative_path": "A013.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7474,
+      "elapsed_seconds": 0.4482,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7474
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 14,
+      "file_name": "A014.jpg",
+      "relative_path": "A014.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8016,
+      "elapsed_seconds": 0.4307,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8016
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 15,
+      "file_name": "A015.jpg",
+      "relative_path": "A015.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7817,
+      "elapsed_seconds": 0.1419,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7817
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 16,
+      "file_name": "A016.jpg",
+      "relative_path": "A016.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7996,
+      "elapsed_seconds": 0.3122,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7996
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 17,
+      "file_name": "A017.jpg",
+      "relative_path": "A017.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7003,
+      "elapsed_seconds": 0.2694,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7003
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 18,
+      "file_name": "A018.jpg",
+      "relative_path": "A018.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.725,
+      "elapsed_seconds": 0.5226,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.725
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 19,
+      "file_name": "A019.jpg",
+      "relative_path": "A019.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7231,
+      "elapsed_seconds": 0.4602,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7231
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 20,
+      "file_name": "A020.jpg",
+      "relative_path": "A020.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7338,
+      "elapsed_seconds": 0.4868,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7338
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 21,
+      "file_name": "A021.jpg",
+      "relative_path": "A021.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7309,
+      "elapsed_seconds": 0.1527,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7309
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 22,
+      "file_name": "A022.jpg",
+      "relative_path": "A022.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6866,
+      "elapsed_seconds": 0.3945,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6866
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 23,
+      "file_name": "A023.jpg",
+      "relative_path": "A023.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7992,
+      "elapsed_seconds": 0.177,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7992
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 24,
+      "file_name": "A024.jpg",
+      "relative_path": "A024.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6355,
+      "elapsed_seconds": 0.264,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6355
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 25,
+      "file_name": "A025.jpg",
+      "relative_path": "A025.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6998,
+      "elapsed_seconds": 0.1978,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6998
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 26,
+      "file_name": "C001.jpg",
+      "relative_path": "C001.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8077,
+      "elapsed_seconds": 0.2346,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8077
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 27,
+      "file_name": "C002.jpg",
+      "relative_path": "C002.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6766,
+      "elapsed_seconds": 0.4893,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6766
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 28,
+      "file_name": "C003.jpg",
+      "relative_path": "C003.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7209,
+      "elapsed_seconds": 0.2412,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7209
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 29,
+      "file_name": "C004.jpg",
+      "relative_path": "C004.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8464,
+      "elapsed_seconds": 0.4046,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8464
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 30,
+      "file_name": "C005.jpg",
+      "relative_path": "C005.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8238,
+      "elapsed_seconds": 0.4261,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8238
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 31,
+      "file_name": "C006.jpg",
+      "relative_path": "C006.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7285,
+      "elapsed_seconds": 0.1033,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7285
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 32,
+      "file_name": "C007.jpg",
+      "relative_path": "C007.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6982,
+      "elapsed_seconds": 0.201,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6982
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 33,
+      "file_name": "C008.jpg",
+      "relative_path": "C008.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7177,
+      "elapsed_seconds": 0.1853,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7177
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 34,
+      "file_name": "C009.jpg",
+      "relative_path": "C009.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8248,
+      "elapsed_seconds": 0.2363,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8248
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 35,
+      "file_name": "C010.jpg",
+      "relative_path": "C010.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6583,
+      "elapsed_seconds": 0.4138,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6583
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 36,
+      "file_name": "C011.jpg",
+      "relative_path": "C011.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8491,
+      "elapsed_seconds": 0.5383,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8491
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 37,
+      "file_name": "C012.jpg",
+      "relative_path": "C012.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6727,
+      "elapsed_seconds": 0.2174,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6727
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 38,
+      "file_name": "C013.jpg",
+      "relative_path": "C013.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7719,
+      "elapsed_seconds": 0.2095,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7719
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 39,
+      "file_name": "C014.jpg",
+      "relative_path": "C014.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6781,
+      "elapsed_seconds": 0.5035,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6781
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 40,
+      "file_name": "C015.jpg",
+      "relative_path": "C015.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6428,
+      "elapsed_seconds": 0.1684,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6428
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 41,
+      "file_name": "C016.jpg",
+      "relative_path": "C016.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8039,
+      "elapsed_seconds": 0.1468,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8039
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 42,
+      "file_name": "C017.jpg",
+      "relative_path": "C017.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8079,
+      "elapsed_seconds": 0.3692,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8079
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 43,
+      "file_name": "C018.jpg",
+      "relative_path": "C018.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7149,
+      "elapsed_seconds": 0.465,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7149
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 44,
+      "file_name": "C019.jpg",
+      "relative_path": "C019.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7187,
+      "elapsed_seconds": 0.1381,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7187
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 45,
+      "file_name": "C020.jpg",
+      "relative_path": "C020.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8467,
+      "elapsed_seconds": 0.3028,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8467
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 46,
+      "file_name": "C021.jpg",
+      "relative_path": "C021.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8222,
+      "elapsed_seconds": 0.3484,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8222
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 47,
+      "file_name": "C022.jpg",
+      "relative_path": "C022.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6459,
+      "elapsed_seconds": 0.2162,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6459
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 48,
+      "file_name": "C023.jpg",
+      "relative_path": "C023.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7748,
+      "elapsed_seconds": 0.1783,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7748
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 49,
+      "file_name": "C024.jpg",
+      "relative_path": "C024.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6347,
+      "elapsed_seconds": 0.3918,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6347
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 50,
+      "file_name": "C025.jpg",
+      "relative_path": "C025.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7344,
+      "elapsed_seconds": 0.4225,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7344
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 51,
+      "file_name": "C026.jpg",
+      "relative_path": "C026.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7018,
+      "elapsed_seconds": 0.4907,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7018
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 52,
+      "file_name": "C027.jpg",
+      "relative_path": "C027.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7074,
+      "elapsed_seconds": 0.3883,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7074
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 53,
+      "file_name": "C028.jpg",
+      "relative_path": "C028.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7353,
+      "elapsed_seconds": 0.3201,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7353
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 54,
+      "file_name": "C029.jpg",
+      "relative_path": "C029.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.826,
+      "elapsed_seconds": 0.4657,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.826
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 55,
+      "file_name": "C030.jpg",
+      "relative_path": "C030.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7909,
+      "elapsed_seconds": 0.5398,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7909
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 56,
+      "file_name": "S001.jpg",
+      "relative_path": "S001.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8189,
+      "elapsed_seconds": 0.3435,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8189
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 57,
+      "file_name": "S002.jpg",
+      "relative_path": "S002.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6515,
+      "elapsed_seconds": 0.1704,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6515
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 58,
+      "file_name": "S003.jpg",
+      "relative_path": "S003.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8326,
+      "elapsed_seconds": 0.2907,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8326
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 59,
+      "file_name": "S004.jpg",
+      "relative_path": "S004.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.624,
+      "elapsed_seconds": 0.1213,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.624
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 60,
+      "file_name": "S005.jpg",
+      "relative_path": "S005.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7152,
+      "elapsed_seconds": 0.2365,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7152
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 61,
+      "file_name": "S006.jpg",
+      "relative_path": "S006.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6429,
+      "elapsed_seconds": 0.2471,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6429
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 62,
+      "file_name": "S007.jpg",
+      "relative_path": "S007.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.739,
+      "elapsed_seconds": 0.2972,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.739
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 63,
+      "file_name": "S008.jpg",
+      "relative_path": "S008.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8499,
+      "elapsed_seconds": 0.4909,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8499
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 64,
+      "file_name": "S009.jpg",
+      "relative_path": "S009.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6559,
+      "elapsed_seconds": 0.2237,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6559
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 65,
+      "file_name": "S010.jpg",
+      "relative_path": "S010.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6705,
+      "elapsed_seconds": 0.1722,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6705
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 66,
+      "file_name": "S011.jpg",
+      "relative_path": "S011.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8183,
+      "elapsed_seconds": 0.3351,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8183
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 67,
+      "file_name": "S012.jpg",
+      "relative_path": "S012.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6939,
+      "elapsed_seconds": 0.2218,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6939
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 68,
+      "file_name": "S013.jpg",
+      "relative_path": "S013.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7205,
+      "elapsed_seconds": 0.4436,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7205
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 69,
+      "file_name": "S014.jpg",
+      "relative_path": "S014.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7865,
+      "elapsed_seconds": 0.2698,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7865
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 70,
+      "file_name": "S015.jpg",
+      "relative_path": "S015.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6952,
+      "elapsed_seconds": 0.4028,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6952
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 71,
+      "file_name": "S016.jpg",
+      "relative_path": "S016.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6235,
+      "elapsed_seconds": 0.3474,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6235
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 72,
+      "file_name": "S017.jpg",
+      "relative_path": "S017.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7232,
+      "elapsed_seconds": 0.2499,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7232
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 73,
+      "file_name": "S018.jpg",
+      "relative_path": "S018.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8154,
+      "elapsed_seconds": 0.2202,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8154
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 74,
+      "file_name": "S019.jpg",
+      "relative_path": "S019.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7589,
+      "elapsed_seconds": 0.2627,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7589
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 75,
+      "file_name": "S020.jpg",
+      "relative_path": "S020.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7036,
+      "elapsed_seconds": 0.498,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7036
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 76,
+      "file_name": "S021.jpg",
+      "relative_path": "S021.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6971,
+      "elapsed_seconds": 0.1826,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6971
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 77,
+      "file_name": "S022.jpg",
+      "relative_path": "S022.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7755,
+      "elapsed_seconds": 0.3044,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7755
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 78,
+      "file_name": "S023.jpg",
+      "relative_path": "S023.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7423,
+      "elapsed_seconds": 0.3494,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7423
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 79,
+      "file_name": "S024.jpg",
+      "relative_path": "S024.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7274,
+      "elapsed_seconds": 0.2187,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7274
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 80,
+      "file_name": "S025.jpg",
+      "relative_path": "S025.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6871,
+      "elapsed_seconds": 0.5126,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6871
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 81,
+      "file_name": "S026.jpg",
+      "relative_path": "S026.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6976,
+      "elapsed_seconds": 0.4552,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6976
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 82,
+      "file_name": "S027.jpg",
+      "relative_path": "S027.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7205,
+      "elapsed_seconds": 0.1514,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7205
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 83,
+      "file_name": "S028.jpg",
+      "relative_path": "S028.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6879,
+      "elapsed_seconds": 0.3516,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6879
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 84,
+      "file_name": "S029.jpg",
+      "relative_path": "S029.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7063,
+      "elapsed_seconds": 0.2447,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7063
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 85,
+      "file_name": "S030.jpg",
+      "relative_path": "S030.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6625,
+      "elapsed_seconds": 0.3078,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6625
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 86,
+      "file_name": "S031.jpg",
+      "relative_path": "S031.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7265,
+      "elapsed_seconds": 0.3331,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7265
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 87,
+      "file_name": "S032.jpg",
+      "relative_path": "S032.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7464,
+      "elapsed_seconds": 0.1681,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7464
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 88,
+      "file_name": "S033.jpg",
+      "relative_path": "S033.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7072,
+      "elapsed_seconds": 0.1773,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7072
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 89,
+      "file_name": "S034.jpg",
+      "relative_path": "S034.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7686,
+      "elapsed_seconds": 0.3238,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7686
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 90,
+      "file_name": "S035.jpg",
+      "relative_path": "S035.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7717,
+      "elapsed_seconds": 0.4755,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7717
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 91,
+      "file_name": "S036.jpg",
+      "relative_path": "S036.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6719,
+      "elapsed_seconds": 0.133,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6719
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 92,
+      "file_name": "S037.jpg",
+      "relative_path": "S037.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7421,
+      "elapsed_seconds": 0.4051,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7421
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 93,
+      "file_name": "S038.jpg",
+      "relative_path": "S038.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7665,
+      "elapsed_seconds": 0.4171,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7665
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 94,
+      "file_name": "S039.jpg",
+      "relative_path": "S039.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8271,
+      "elapsed_seconds": 0.3454,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8271
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 95,
+      "file_name": "S040.jpg",
+      "relative_path": "S040.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7353,
+      "elapsed_seconds": 0.2655,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7353
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 96,
+      "file_name": "S041.jpeg",
+      "relative_path": "S041.jpeg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6852,
+      "elapsed_seconds": 0.1477,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6852
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 97,
+      "file_name": "S042.jpg",
+      "relative_path": "S042.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6888,
+      "elapsed_seconds": 0.4886,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6888
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 98,
+      "file_name": "S043.jpg",
+      "relative_path": "S043.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8495,
+      "elapsed_seconds": 0.3967,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8495
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 99,
+      "file_name": "S044.jpg",
+      "relative_path": "S044.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6399,
+      "elapsed_seconds": 0.5375,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6399
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 100,
+      "file_name": "S045.jpg",
+      "relative_path": "S045.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6581,
+      "elapsed_seconds": 0.4857,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6581
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 101,
+      "file_name": "S046.jpg",
+      "relative_path": "S046.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8059,
+      "elapsed_seconds": 0.2543,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8059
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 102,
+      "file_name": "S047.jpg",
+      "relative_path": "S047.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8134,
+      "elapsed_seconds": 0.4371,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8134
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 103,
+      "file_name": "S048.jpg",
+      "relative_path": "S048.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8333,
+      "elapsed_seconds": 0.4222,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8333
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 104,
+      "file_name": "S049.jpg",
+      "relative_path": "S049.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6256,
+      "elapsed_seconds": 0.2399,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6256
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 105,
+      "file_name": "S050.jpg",
+      "relative_path": "S050.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8124,
+      "elapsed_seconds": 0.5115,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8124
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 106,
+      "file_name": "S051.jpg",
+      "relative_path": "S051.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7322,
+      "elapsed_seconds": 0.4591,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7322
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 107,
+      "file_name": "S052.jpg",
+      "relative_path": "S052.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.758,
+      "elapsed_seconds": 0.1714,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.758
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 108,
+      "file_name": "S053.jpg",
+      "relative_path": "S053.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7801,
+      "elapsed_seconds": 0.4159,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7801
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 109,
+      "file_name": "S054.jpg",
+      "relative_path": "S054.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7105,
+      "elapsed_seconds": 0.2751,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7105
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 110,
+      "file_name": "S055.jpg",
+      "relative_path": "S055.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6661,
+      "elapsed_seconds": 0.377,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6661
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 111,
+      "file_name": "S056.jpg",
+      "relative_path": "S056.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6513,
+      "elapsed_seconds": 0.407,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6513
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 112,
+      "file_name": "S057.jpg",
+      "relative_path": "S057.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8231,
+      "elapsed_seconds": 0.2081,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8231
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 113,
+      "file_name": "S058.jpg",
+      "relative_path": "S058.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8127,
+      "elapsed_seconds": 0.2034,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8127
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 114,
+      "file_name": "S059.jpg",
+      "relative_path": "S059.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6995,
+      "elapsed_seconds": 0.4574,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6995
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 115,
+      "file_name": "S060.jpeg",
+      "relative_path": "S060.jpeg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7853,
+      "elapsed_seconds": 0.5483,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7853
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 116,
+      "file_name": "S061.jpeg",
+      "relative_path": "S061.jpeg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6961,
+      "elapsed_seconds": 0.3487,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6961
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 117,
+      "file_name": "S062.jpg",
+      "relative_path": "S062.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7712,
+      "elapsed_seconds": 0.4106,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7712
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 118,
+      "file_name": "S063.jpg",
+      "relative_path": "S063.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8116,
+      "elapsed_seconds": 0.383,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8116
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 119,
+      "file_name": "S064.jpg",
+      "relative_path": "S064.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.695,
+      "elapsed_seconds": 0.3175,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.695
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 120,
+      "file_name": "S065.jpg",
+      "relative_path": "S065.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6281,
+      "elapsed_seconds": 0.4671,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6281
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 121,
+      "file_name": "S066.jpg",
+      "relative_path": "S066.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7484,
+      "elapsed_seconds": 0.1555,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7484
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 122,
+      "file_name": "S067.jpg",
+      "relative_path": "S067.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7156,
+      "elapsed_seconds": 0.326,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7156
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 123,
+      "file_name": "S068.jpg",
+      "relative_path": "S068.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7258,
+      "elapsed_seconds": 0.4036,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7258
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 124,
+      "file_name": "S069.jpg",
+      "relative_path": "S069.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7318,
+      "elapsed_seconds": 0.3254,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7318
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 125,
+      "file_name": "S070.jpg",
+      "relative_path": "S070.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7449,
+      "elapsed_seconds": 0.1126,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7449
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 126,
+      "file_name": "S071.jpeg",
+      "relative_path": "S071.jpeg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6406,
+      "elapsed_seconds": 0.4946,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6406
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 127,
+      "file_name": "S072.jpg",
+      "relative_path": "S072.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8463,
+      "elapsed_seconds": 0.5456,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8463
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 128,
+      "file_name": "S073.jpg",
+      "relative_path": "S073.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8416,
+      "elapsed_seconds": 0.4947,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8416
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 129,
+      "file_name": "S074.jpg",
+      "relative_path": "S074.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6801,
+      "elapsed_seconds": 0.176,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6801
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 130,
+      "file_name": "S075.jpg",
+      "relative_path": "S075.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6371,
+      "elapsed_seconds": 0.39,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6371
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 131,
+      "file_name": "S076.jpg",
+      "relative_path": "S076.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.707,
+      "elapsed_seconds": 0.3771,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.707
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 132,
+      "file_name": "S077.jpg",
+      "relative_path": "S077.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6467,
+      "elapsed_seconds": 0.1545,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6467
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 133,
+      "file_name": "S078.jpg",
+      "relative_path": "S078.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7368,
+      "elapsed_seconds": 0.3898,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7368
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 134,
+      "file_name": "S079.jpg",
+      "relative_path": "S079.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8043,
+      "elapsed_seconds": 0.1578,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8043
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 135,
+      "file_name": "S080.jpg",
+      "relative_path": "S080.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7993,
+      "elapsed_seconds": 0.3192,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7993
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 136,
+      "file_name": "S081.jpg",
+      "relative_path": "S081.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7472,
+      "elapsed_seconds": 0.5025,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7472
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 137,
+      "file_name": "S082.jpg",
+      "relative_path": "S082.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.696,
+      "elapsed_seconds": 0.1243,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.696
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 138,
+      "file_name": "S083.jpg",
+      "relative_path": "S083.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7416,
+      "elapsed_seconds": 0.2175,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7416
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 139,
+      "file_name": "S084.jpg",
+      "relative_path": "S084.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7818,
+      "elapsed_seconds": 0.2581,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7818
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 140,
+      "file_name": "S085.jpg",
+      "relative_path": "S085.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7956,
+      "elapsed_seconds": 0.5364,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7956
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 141,
+      "file_name": "S086.jpg",
+      "relative_path": "S086.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7476,
+      "elapsed_seconds": 0.2996,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7476
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 142,
+      "file_name": "S087.jpg",
+      "relative_path": "S087.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7721,
+      "elapsed_seconds": 0.2813,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7721
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 143,
+      "file_name": "S088.jpg",
+      "relative_path": "S088.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8265,
+      "elapsed_seconds": 0.2301,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8265
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 144,
+      "file_name": "S089.jpg",
+      "relative_path": "S089.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6528,
+      "elapsed_seconds": 0.3367,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6528
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 145,
+      "file_name": "S090.jpg",
+      "relative_path": "S090.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6585,
+      "elapsed_seconds": 0.2411,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6585
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 146,
+      "file_name": "T001.jpeg",
+      "relative_path": "T001.jpeg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8422,
+      "elapsed_seconds": 0.3789,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8422
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 147,
+      "file_name": "T002.jpg",
+      "relative_path": "T002.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7614,
+      "elapsed_seconds": 0.4728,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7614
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 148,
+      "file_name": "T003.jpeg",
+      "relative_path": "T003.jpeg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7453,
+      "elapsed_seconds": 0.2031,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7453
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 149,
+      "file_name": "T004.jpg",
+      "relative_path": "T004.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7723,
+      "elapsed_seconds": 0.4928,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7723
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 150,
+      "file_name": "T005.jpg",
+      "relative_path": "T005.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8298,
+      "elapsed_seconds": 0.2896,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8298
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 151,
+      "file_name": "T006.jpg",
+      "relative_path": "T006.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7946,
+      "elapsed_seconds": 0.4922,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7946
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 152,
+      "file_name": "T007.jpg",
+      "relative_path": "T007.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6423,
+      "elapsed_seconds": 0.3187,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6423
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 153,
+      "file_name": "T008.jpeg",
+      "relative_path": "T008.jpeg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7765,
+      "elapsed_seconds": 0.1972,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7765
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 154,
+      "file_name": "T009.jpg",
+      "relative_path": "T009.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6995,
+      "elapsed_seconds": 0.5269,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6995
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 155,
+      "file_name": "T010.jpg",
+      "relative_path": "T010.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.759,
+      "elapsed_seconds": 0.4777,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.759
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 156,
+      "file_name": "T011.jpg",
+      "relative_path": "T011.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8189,
+      "elapsed_seconds": 0.2961,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8189
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 157,
+      "file_name": "T012.jpg",
+      "relative_path": "T012.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6355,
+      "elapsed_seconds": 0.2799,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6355
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 158,
+      "file_name": "T013.jpg",
+      "relative_path": "T013.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6854,
+      "elapsed_seconds": 0.4561,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6854
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 159,
+      "file_name": "T014.jpg",
+      "relative_path": "T014.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7868,
+      "elapsed_seconds": 0.1437,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7868
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 160,
+      "file_name": "T015.jpg",
+      "relative_path": "T015.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8099,
+      "elapsed_seconds": 0.4612,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8099
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 161,
+      "file_name": "T016.jpg",
+      "relative_path": "T016.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7759,
+      "elapsed_seconds": 0.5038,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7759
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 162,
+      "file_name": "T017.jpg",
+      "relative_path": "T017.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6676,
+      "elapsed_seconds": 0.1457,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6676
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 163,
+      "file_name": "T018.jpg",
+      "relative_path": "T018.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7537,
+      "elapsed_seconds": 0.3227,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7537
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 164,
+      "file_name": "T019.jpg",
+      "relative_path": "T019.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.805,
+      "elapsed_seconds": 0.4374,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.805
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 165,
+      "file_name": "T020.jpg",
+      "relative_path": "T020.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7495,
+      "elapsed_seconds": 0.5473,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7495
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 166,
+      "file_name": "T021.jpg",
+      "relative_path": "T021.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6256,
+      "elapsed_seconds": 0.2897,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6256
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 167,
+      "file_name": "T022.jpg",
+      "relative_path": "T022.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.781,
+      "elapsed_seconds": 0.1983,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.781
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 168,
+      "file_name": "T023.jpg",
+      "relative_path": "T023.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8123,
+      "elapsed_seconds": 0.1797,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8123
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 169,
+      "file_name": "T024.jpg",
+      "relative_path": "T024.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7963,
+      "elapsed_seconds": 0.4172,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7963
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 170,
+      "file_name": "T025.jpg",
+      "relative_path": "T025.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6688,
+      "elapsed_seconds": 0.4981,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6688
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 171,
+      "file_name": "T026.jpg",
+      "relative_path": "T026.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7105,
+      "elapsed_seconds": 0.1276,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7105
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 172,
+      "file_name": "T027.jpg",
+      "relative_path": "T027.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7861,
+      "elapsed_seconds": 0.2005,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7861
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 173,
+      "file_name": "T028.jpg",
+      "relative_path": "T028.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8117,
+      "elapsed_seconds": 0.2325,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8117
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 174,
+      "file_name": "T029.jpg",
+      "relative_path": "T029.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7666,
+      "elapsed_seconds": 0.2152,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7666
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 175,
+      "file_name": "T030.jpeg",
+      "relative_path": "T030.jpeg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.633,
+      "elapsed_seconds": 0.4166,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.633
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 176,
+      "file_name": "T031.jpg",
+      "relative_path": "T031.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.668,
+      "elapsed_seconds": 0.3721,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.668
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 177,
+      "file_name": "T032.jpg",
+      "relative_path": "T032.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8389,
+      "elapsed_seconds": 0.3021,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8389
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 178,
+      "file_name": "T033.jpg",
+      "relative_path": "T033.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7004,
+      "elapsed_seconds": 0.4796,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7004
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 179,
+      "file_name": "T034.jpg",
+      "relative_path": "T034.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8304,
+      "elapsed_seconds": 0.2614,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8304
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 180,
+      "file_name": "T035.jpg",
+      "relative_path": "T035.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7404,
+      "elapsed_seconds": 0.3025,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7404
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 181,
+      "file_name": "T036.jpg",
+      "relative_path": "T036.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6393,
+      "elapsed_seconds": 0.1119,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6393
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 182,
+      "file_name": "T037.jpg",
+      "relative_path": "T037.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.8148,
+      "elapsed_seconds": 0.3475,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.8148
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 183,
+      "file_name": "T038.jpg",
+      "relative_path": "T038.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6611,
+      "elapsed_seconds": 0.3227,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6611
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 184,
+      "file_name": "T039.jpg",
+      "relative_path": "T039.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7315,
+      "elapsed_seconds": 0.2813,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7315
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 185,
+      "file_name": "T040.jpg",
+      "relative_path": "T040.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7534,
+      "elapsed_seconds": 0.5008,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7534
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 186,
+      "file_name": "T041.jpg",
+      "relative_path": "T041.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6316,
+      "elapsed_seconds": 0.4937,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6316
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 187,
+      "file_name": "T042.jpg",
+      "relative_path": "T042.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6451,
+      "elapsed_seconds": 0.1412,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6451
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 188,
+      "file_name": "T043.jpg",
+      "relative_path": "T043.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6491,
+      "elapsed_seconds": 0.3667,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6491
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 189,
+      "file_name": "T044.jpg",
+      "relative_path": "T044.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6226,
+      "elapsed_seconds": 0.3868,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6226
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 190,
+      "file_name": "T045.jpg",
+      "relative_path": "T045.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6752,
+      "elapsed_seconds": 0.1919,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6752
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 191,
+      "file_name": "T046.jpg",
+      "relative_path": "T046.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.687,
+      "elapsed_seconds": 0.3005,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.687
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 192,
+      "file_name": "T047.jpg",
+      "relative_path": "T047.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.686,
+      "elapsed_seconds": 0.4403,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.686
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 193,
+      "file_name": "T048.jpg",
+      "relative_path": "T048.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6731,
+      "elapsed_seconds": 0.3096,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6731
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 194,
+      "file_name": "T049.jpg",
+      "relative_path": "T049.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6502,
+      "elapsed_seconds": 0.3031,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6502
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 195,
+      "file_name": "T050.jpg",
+      "relative_path": "T050.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6273,
+      "elapsed_seconds": 0.5463,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6273
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 196,
+      "file_name": "T051.jpg",
+      "relative_path": "T051.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7027,
+      "elapsed_seconds": 0.1112,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7027
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 197,
+      "file_name": "T052.jpg",
+      "relative_path": "T052.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7489,
+      "elapsed_seconds": 0.4434,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7489
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 198,
+      "file_name": "T053.jpg",
+      "relative_path": "T053.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.6769,
+      "elapsed_seconds": 0.2741,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.6769
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 199,
+      "file_name": "T054.jpg",
+      "relative_path": "T054.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7999,
+      "elapsed_seconds": 0.4813,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7999
+        },
+        "vlm": null
+      }
+    },
+    {
+      "id": 200,
+      "file_name": "T055.jpg",
+      "relative_path": "T055.jpg",
+      "mode": "级联检测",
+      "decision": "PASS",
+      "blocked": false,
+      "reason": "YOLO放行，简单场景放行",
+      "stage": "MobileNetV4",
+      "category": null,
+      "confidence": 0.7769,
+      "elapsed_seconds": 0.3537,
+      "details": {
+        "yolo": {
+          "category": null,
+          "confidence": 0.0,
+          "matched_keyword": null
+        },
+        "mobilenetv4": {
+          "category": "simple",
+          "confidence": 0.7769
+        },
+        "vlm": null
+      }
+    }
+  ]
+}
